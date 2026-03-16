@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="el" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LV Bioclean – Επικοινωνία</title>
+  <meta name="description" content="Επικοινωνήστε με την LV Bioclean για υπηρεσίες απολύμανσης και βιολογικού καθαρισμού στην Αττική. Άμεση ανταπόκριση 24/7." />
+
+  <!-- Pico CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Brands (Viber icon) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <link rel="stylesheet" id="silktide-consent-manager-css" href="cookie-banner/silktide-consent-manager.css">
+  <script src="cookie-banner/silktide-consent-manager.js"></script>
+  <script>
+    silktideCookieBannerManager.updateCookieBannerConfig({
+      background: { showBackground: true },
+      cookieIcon: { position: "bottomLeft" },
+      cookieTypes: [
+        {
+          id: "analytics",
+          name: "Analytics",
+          description: "<p>These cookies are necessary for the website to function properly and cannot be switched off. They help with things like logging in and setting your privacy preferences.</p>",
+          required: false,
+          onAccept: function() {
+            gtag('consent', 'update', { analytics_storage: 'granted', });
+            dataLayer.push({ 'event': 'consent_accepted_analytics', });
+          },
+          onReject: function() {
+            gtag('consent', 'update', { analytics_storage: 'denied', });
+          }
+        }
+      ],
+      text: {
+        banner: {
+          description: "<p>Χρησιμοποιούμε cookies στον ιστότοπό μας για να βελτιώσουμε την εμπειρία χρήσης σας, να παρέχουμε εξατομικευμένο περιεχόμενο και να αναλύουμε την επισκεψιμότητά μας. <a href=\"http://cookie.policy.html\" target=\"_blank\">Cookie Policy</a></p>",
+          acceptAllButtonText: "Αποδοχή",
+          acceptAllButtonAccessibleLabel: "Accept all cookies",
+          rejectNonEssentialButtonText: "Απόρριψη",
+          rejectNonEssentialButtonAccessibleLabel: "Reject non-essential",
+          preferencesButtonText: "Preferences",
+          preferencesButtonAccessibleLabel: "Toggle preferences"
+        },
+        preferences: {
+          title: "Customize your cookie preferences",
+          description: "<p>We respect your right to privacy. You can choose not to allow some types of cookies. Your cookie preferences will apply across our website.</p>",
+          creditLinkText: "Get this banner for free",
+          creditLinkAccessibleLabel: "Get this banner for free"
+        }
+      },
+      position: { banner: "bottomCenter" }
+    });
+  </script>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="topbar-container">
+      <span class="topbar-item"><i class="fas fa-map-marker-alt"></i> Εξυπηρέτηση σε όλη την Αττική</span>
+      <span class="topbar-item"><i class="fas fa-phone-alt"></i> <a href="tel:+306948630211">6948 630211</a></span>
+      <span class="topbar-item"><i class="fas fa-envelope"></i> <a href="mailto:teamoclockk@gmail.com">teamoclockk@gmail.com</a></span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="nav-brand">
+        <img src="lv.256.original.png" alt="LV Bioclean" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Αρχική</a></li>
+        <li><a href="about.html">Ποιοι Είμαστε</a></li>
+        <li><a href="pricing.html">Τιμοκατάλογος</a></li>
+        <li><a href="contact.html" class="active">Επικοινωνία</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ CONTACT PAGE ═══════════════ -->
+  <section class="page-section">
+    <div class="container hero-inner">
+      <h1 class="brand-heading">ΕΠΙΚΟΙΝΩΝΙΑ</h1>
+      <p class="brand-sub">ΒΡΙΣΚΟΜΑΣΤΕ ΔΙΠΛΑ ΣΑΣ ΟΛΟ ΤΟ 24ΩΡΟ</p>
+
+      <!-- CTA Card -->
+      <article class="glass-card cta-card" style="margin-top: 1rem;">
+        <div class="cta-left">
+          <a class="cta-label" href="tel:+306948630211">ΚΑΛΕΣΤΕ ΤΩΡΑ</a>
+          <a href="tel:+306948630211" class="cta-phone">6948 630211</a>
+          <a href="viber://chat?number=%2B306948630211" class="cta-viber">
+            <i class="fab fa-viber"></i> Viber
+          </a>
+          <p class="cta-region">Εξυπηρέτηση σε όλη την Αττική</p>
+        </div>
+        <div class="cta-qr">
+          <img src="qr.png" alt="QR Code 6948630211" width="100" height="100" />
+        </div>
+      </article>
+
+      <div class="glass-card" style="margin-top: 2rem; max-width: 900px; width: 100%; padding: 2rem;">
+        <h3 style="color: var(--gold-light); margin-bottom: 1.5rem; font-weight: 700; font-size: 1.25rem;">Στοιχεία Επικοινωνίας</h3>
+        <p style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.6rem; color: var(--text-main);">
+          <span style="color: var(--gold); width: 24px; text-align: center;"><i class="fas fa-envelope"></i></span> 
+          <span><strong>Email:</strong> teamoclockk@gmail.com</span>
+        </p>
+        <p style="margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.6rem; color: var(--text-main);">
+          <span style="color: var(--gold); width: 24px; text-align: center;"><i class="fas fa-phone"></i></span> 
+          <span><strong>Τηλέφωνο:</strong> 6948 630211</span>
+        </p>
+        <p style="margin-bottom: 0px; display: flex; align-items: center; gap: 0.6rem; color: var(--text-main);">
+          <span style="color: var(--gold); width: 24px; text-align: center;"><i class="fas fa-map-marker-alt"></i></span> 
+          <span><strong>Περιοχή Εξυπηρέτησης:</strong> Αττική</span>
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

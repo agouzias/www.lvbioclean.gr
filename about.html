@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="el" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LV Bioclean – Ποιοι Είμαστε</title>
+  <meta name="description" content="Γνωρίστε την LV Bioclean. Προσφέρουμε επαγγελματικές υπηρεσίες απολύμανσης, απεντόμωσης και βιολογικού καθαρισμού." />
+
+  <!-- Pico CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Brands (Viber icon) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <link rel="stylesheet" id="silktide-consent-manager-css" href="cookie-banner/silktide-consent-manager.css">
+  <script src="cookie-banner/silktide-consent-manager.js"></script>
+  <script>
+    silktideCookieBannerManager.updateCookieBannerConfig({
+      background: { showBackground: true },
+      cookieIcon: { position: "bottomLeft" },
+      cookieTypes: [
+        {
+          id: "analytics",
+          name: "Analytics",
+          description: "<p>These cookies are necessary for the website to function properly and cannot be switched off. They help with things like logging in and setting your privacy preferences.</p>",
+          required: false,
+          onAccept: function() {
+            gtag('consent', 'update', { analytics_storage: 'granted', });
+            dataLayer.push({ 'event': 'consent_accepted_analytics', });
+          },
+          onReject: function() {
+            gtag('consent', 'update', { analytics_storage: 'denied', });
+          }
+        }
+      ],
+      text: {
+        banner: {
+          description: "<p>Χρησιμοποιούμε cookies στον ιστότοπό μας για να βελτιώσουμε την εμπειρία χρήσης σας, να παρέχουμε εξατομικευμένο περιεχόμενο και να αναλύουμε την επισκεψιμότητά μας. <a href=\"http://cookie.policy.html\" target=\"_blank\">Cookie Policy</a></p>",
+          acceptAllButtonText: "Αποδοχή",
+          acceptAllButtonAccessibleLabel: "Accept all cookies",
+          rejectNonEssentialButtonText: "Απόρριψη",
+          rejectNonEssentialButtonAccessibleLabel: "Reject non-essential",
+          preferencesButtonText: "Preferences",
+          preferencesButtonAccessibleLabel: "Toggle preferences"
+        },
+        preferences: {
+          title: "Customize your cookie preferences",
+          description: "<p>We respect your right to privacy. You can choose not to allow some types of cookies. Your cookie preferences will apply across our website.</p>",
+          creditLinkText: "Get this banner for free",
+          creditLinkAccessibleLabel: "Get this banner for free"
+        }
+      },
+      position: { banner: "bottomCenter" }
+    });
+  </script>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="topbar-container">
+      <span class="topbar-item"><i class="fas fa-map-marker-alt"></i> Εξυπηρέτηση σε όλη την Αττική</span>
+      <span class="topbar-item"><i class="fas fa-phone-alt"></i> <a href="tel:+306948630211">6948 630211</a></span>
+      <span class="topbar-item"><i class="fas fa-envelope"></i> <a href="mailto:teamoclockk@gmail.com">teamoclockk@gmail.com</a></span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="nav-brand">
+        <img src="lv.256.original.png" alt="LV Bioclean" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Αρχική</a></li>
+        <li><a href="about.html" class="active">Ποιοι Είμαστε</a></li>
+        <li><a href="pricing.html">Τιμοκατάλογος</a></li>
+        <li><a href="contact.html">Επικοινωνία</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ ABOUT US PAGE ═══════════════ -->
+  <section class="page-section">
+    <div class="container hero-inner">
+      <h1 class="brand-heading">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</h1>
+      <p class="brand-sub">LV BIOCLEAN – ΑΣΦΑΛΕΙΑ & ΥΓΙΕΙΝΗ</p>
+      
+      <div class="glass-card" style="margin-bottom: 2rem; max-width: 900px; width: 100%; padding: 2rem; text-align: center; font-size: 1.1rem; line-height: 1.6;">
+        <p>Η <strong>LV Bioclean</strong> αποτελεί τον πιο αξιόπιστο συνεργάτη σας για λύσεις απολύμανσης, απεντόμωσης και βιολογικού καθαρισμού στην Αττική. Με εμπειρία, εξειδικευμένο προσωπικό και απόλυτο σεβασμό στον άνθρωπο και το περιβάλλον, εξασφαλίζουμε άριστα αποτελέσματα σε κάθε μας παρέμβαση.</p>
+        <p>Χρησιμοποιούμε οικολογικά, εγκεκριμένα και ασφαλή φάρμακα, προσφέροντας άμεση επέμβαση 24 ώρες το 24ωρο, 7 ημέρες την εβδομάδα, για το σπίτι ή τον επαγγελματικό σας χώρο.</p>
+      </div>
+
+      <!-- Two-column card grid -->
+      <div class="grid services-grid">
+        <article class="glass-card">
+          <header class="card-header">
+            <span class="card-icon">🪲</span>
+            <strong>Οι Υπηρεσίες μας</strong>
+          </header>
+          <ul class="service-list">
+            <li>Απολύμανση επαγγελματικών & οικιακών χώρων</li>
+            <li>Απεντόμωση για κάθε είδους έντομα & παράσιτα</li>
+            <li>Βιολογικοί Καθαρισμοί στρωμάτων & σαλονιών</li>
+            <li>Βιολογικός Καθαρισμός αυτοκινήτων</li>
+          </ul>
+        </article>
+
+        <article class="glass-card">
+          <header class="card-header">
+            <span class="card-icon">🔥</span>
+            <strong>Γιατί να μας επιλέξετε;</strong>
+          </header>
+          <ul class="why-list">
+            <li><span class="why-icon">✅</span> Άμεση επέμβαση 24/7</li>
+            <li><span class="why-icon">✅</span> Εγγυημένο αποτέλεσμα</li>
+            <li><span class="why-icon">🧴</span> Οικολογικά & ασφαλή φάρμακα</li>
+            <li><span class="why-icon">✅</span> Εξειδικευμένο προσωπικό</li>
+            <li><span class="why-icon">📋</span> Πιστοποιητικό & Απόδειξη-Τιμολόγιο σε κάθε εργασία</li>
+          </ul>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
