@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="el" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LV Bioclean – Βιολογικοί Καθαρισμοί</title>
+  <meta name="description" content="Ο βιολογικός καθαρισμός είναι η ιδανική λύση για τον βαθύ καθαρισμό υφασμάτινων επιφανειών. Απομάκρυνση μικροβίων, λεκέδων και ακάρεων στην Αττική." />
+
+  <!-- Pico CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" id="silktide-consent-manager-css" href="cookie-banner/silktide-consent-manager.css">
+  <script src="cookie-banner/silktide-consent-manager.js"></script>
+  <script>
+    silktideCookieBannerManager.updateCookieBannerConfig({
+      background: { showBackground: true },
+      cookieIcon: { position: "bottomLeft" },
+      cookieTypes: [
+        {
+          id: "analytics",
+          name: "Analytics",
+          description: "<p>These cookies are necessary for the website to function properly and cannot be switched off.</p>",
+          required: false,
+          onAccept: function() {
+            gtag('consent', 'update', { analytics_storage: 'granted' });
+            dataLayer.push({ 'event': 'consent_accepted_analytics' });
+          },
+          onReject: function() {
+            gtag('consent', 'update', { analytics_storage: 'denied' });
+          }
+        }
+      ],
+      text: {
+        banner: {
+          description: "<p>Χρησιμοποιούμε cookies στον ιστότοπό μας για να βελτιώσουμε την εμπειρία χρήσης σας. <a href=\"http://cookie.policy.html\" target=\"_blank\">Cookie Policy</a></p>",
+          acceptAllButtonText: "Αποδοχή",
+          acceptAllButtonAccessibleLabel: "Accept all cookies",
+          rejectNonEssentialButtonText: "Απόρριψη",
+          rejectNonEssentialButtonAccessibleLabel: "Reject non-essential",
+          preferencesButtonText: "Preferences",
+          preferencesButtonAccessibleLabel: "Toggle preferences"
+        },
+        preferences: {
+          title: "Customize your cookie preferences",
+          description: "<p>We respect your right to privacy. You can choose not to allow some types of cookies.</p>",
+          creditLinkText: "Get this banner for free",
+          creditLinkAccessibleLabel: "Get this banner for free"
+        }
+      },
+      position: { banner: "bottomCenter" }
+    });
+  </script>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="topbar-container">
+      <span class="topbar-item"><i class="fas fa-map-marker-alt"></i> Εξυπηρέτηση σε όλη την Αττική</span>
+      <span class="topbar-item"><i class="fas fa-phone-alt"></i> <a href="tel:+306948630211">6948 630211</a></span>
+      <span class="topbar-item"><i class="fas fa-envelope"></i> <a href="mailto:teamoclockk@gmail.com">teamoclockk@gmail.com</a></span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="nav-brand">
+        <img src="lv.256.original.png" alt="LV Bioclean" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Αρχική</a></li>
+        <li><a href="services.html">Απολυμάνσεις – Απεντομώσεις</a></li>
+        <li><a href="bio-cleaning.html" class="active">Βιολογικοί Καθαρισμοί</a></li>
+        <li><a href="pricing.html">Τιμοκατάλογος</a></li>
+        <li><a href="contact.html">Επικοινωνία</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ BIO-CLEANING PAGE ═══════════════ -->
+  <section class="page-section">
+    <div class="container hero-inner">
+      <h1 class="brand-heading">ΒΙΟΛΟΓΙΚΟΙ ΚΑΘΑΡΙΣΜΟΙ</h1>
+      <p class="brand-sub">ΣΑΛΟΝΙΩΝ &amp; ΣΤΡΩΜΑΤΩΝ</p>
+
+      <!-- Main intro block -->
+      <div class="glass-card" style="margin-bottom: 2rem; max-width: 900px; width: 100%; padding: 2rem; text-align: center;">
+        <h2 style="font-size: 1.3rem; color: var(--gold-light); margin-bottom: 1rem;">Βιολογικοί Καθαρισμοί Σαλονιών &amp; Στρωμάτων</h2>
+        <p>Ο βιολογικός καθαρισμός είναι η ιδανική λύση για τον βαθύ καθαρισμό υφασμάτινων επιφανειών. Με επαγγελματικό εξοπλισμό και ειδικά καθαριστικά απομακρύνονται λεκέδες, σκόνη, μικρόβια και αλλεργιογόνα, χαρίζοντας καθαριότητα και φρεσκάδα στον χώρο σας.</p>
+      </div>
+
+      <!-- Two-column card grid -->
+      <div class="grid services-grid">
+
+        <!-- Block A: Υπηρεσίες -->
+        <article class="glass-card">
+          <header class="card-header">
+            <span class="card-icon">🧽</span>
+            <strong>Υπηρεσίες βιολογικού καθαρισμού</strong>
+          </header>
+          <ul class="service-list">
+            <li>Καθαρισμός σαλονιών και πολυθρόνων</li>
+            <li>Καθαρισμός στρωμάτων</li>
+            <li>Καθαρισμός χαλιών και μοκετών</li>
+            <li>Καθαρισμός καθισμάτων αυτοκινήτου</li>
+          </ul>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 1rem; line-height: 1.5;">
+            Η διαδικασία πραγματοποιείται με ασφαλή υλικά που προστατεύουν τα υφάσματα και προσφέρουν βαθύ καθαρισμό.
+          </p>
+        </article>
+
+        <!-- Block B: Πλεονεκτήματα -->
+        <article class="glass-card">
+          <header class="card-header">
+            <span class="card-icon">✨</span>
+            <strong>Πλεονεκτήματα</strong>
+          </header>
+          <ul class="why-list">
+            <li><span class="why-icon">✅</span> Απομάκρυνση μικροβίων και ακάρεων</li>
+            <li><span class="why-icon">✅</span> Βαθύς καθαρισμός υφασμάτων</li>
+            <li><span class="why-icon">✅</span> Κατάλληλο για σπίτια με παιδιά ή κατοικίδια</li>
+            <li><span class="why-icon">✅</span> Ανανεώνει την εμφάνιση των υφασμάτων</li>
+          </ul>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 1rem; line-height: 1.5;">
+            Οι υπηρεσίες βιολογικού καθαρισμού πραγματοποιούνται σε κατοικίες και επαγγελματικούς χώρους σε όλη την Αττική.
+          </p>
+        </article>
+
+      </div>
+
+      <!-- Contact CTA block -->
+      <article class="glass-card cta-card" style="max-width: 900px; justify-content: center; text-align: center; flex-direction: column; gap: 1rem; margin-top: 0.5rem;">
+        <p style="font-size: 1rem; color: var(--text-main); margin: 0; line-height: 1.6;">
+          Οι υπηρεσίες βιολογικού καθαρισμού πραγματοποιούνται σε κατοικίες και επαγγελματικούς χώρους σε όλη την Αττική.<br/>
+          Επικοινωνήστε μαζί μας για να προγραμματίσετε τον βιολογικό καθαρισμό του χώρου σας.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="tel:+306948630211" class="cta-phone" style="font-size: 1.3rem;">
+            <i class="fas fa-phone-alt"></i> 6948 630211
+          </a>
+          <a href="viber://chat?number=%2B306948630211" class="cta-viber">
+            <i class="fab fa-viber"></i> Viber
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</body>
+</html>

@@ -81,7 +81,7 @@ a { color: var(--gold-light); }
 
 /* ── Brand heading ── */
 .brand-heading {
-  font-size: clamp(2rem, 8vw, 2.8rem);
+  font-size: clamp(1.5rem, 5vw, 1.8rem);
   font-weight: 900;
   letter-spacing: .25em;
   color: var(--teal-dark);
@@ -122,6 +122,12 @@ a { color: var(--gold-light); }
 .glass-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 32px rgba(0,0,0,.15);
+}
+
+.glass-card p {
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.6;
 }
 
 .card-header {
@@ -383,7 +389,7 @@ tbody td {
 .topbar {
   background-color: #000000;
   color: var(--text-muted);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 0.4rem 1rem;
   display: flex;
   justify-content: center;
@@ -474,7 +480,7 @@ tbody td {
 .nav-links a {
   color: var(--text-main);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: 600;
   transition: color 0.2s;
   letter-spacing: 0.02em;
