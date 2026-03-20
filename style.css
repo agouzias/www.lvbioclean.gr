@@ -52,6 +52,12 @@ a { color: var(--gold-light); }
   padding: 2.5rem 1rem 3rem;
 }
 
+/* Hide Silktide branding text and logo from the consent manager */
+.silktide-logo,
+#silktide-modal footer a[href*="silktide.com"] {
+  display: none !important;
+}
+
 /* subtle radial glow off */
 .hero-section::before {
   display: none;
